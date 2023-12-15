@@ -1,0 +1,51 @@
+/* Import*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+/* Conteiner */
+.card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #821B47;
+    border-radius: 5px;
+}
+
+/* Titulo */
+.card__title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+/* Descricao */
+.card__description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 29px;
+}
+
+/* Conexao */
+.card__title--conect{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #B51D44;
+    text-decoration: none;
+}
+
+.card__title--dissable{
+    pointer-events: none;
+    color: #999;
+}
